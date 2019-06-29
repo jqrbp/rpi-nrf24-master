@@ -2,6 +2,14 @@
 
 Menyambung embedded linux device (raspberry pi) ke jaringan nrf24 Mesh
 
+# direktori
+
+certs -> berisi sertifkat untuk koneksi mqtt dengan mosquitto
+
+src -> berisi kode dari program
+
+conf -> contoh konfigurasi file yang bisa digunakan untuk mosquitto dan program.
+
 # konfigurasi nrf24:
 
 channel: 60
