@@ -63,3 +63,23 @@ No | Pin | RPI         | RPi -P1 Connector
 7  | MISO |	rpi-miso   | (21)
 
 8  | IRQ  |	-          | -
+
+# Serial Command (stm32f103):
+
+g -> melihat id
+
+i,<id> -> mengatur nrf24 klien id, 
+
+misal: i,4 -> mengatur klien id menjadi 4
+
+s,<id>,<pin>,<value> -> mengatur output pin dari nrf24 mesh dengan klien id = <id>, pin = <pin> dan output = <value>
+
+misal: s,1,28,0 -> mengatur output pin dari klien nrf24 dengan id = 1, pin = 28, dan output = 0
+
+# mqtt command:
+
+Untuk mengirimkan command dari mqtt ke nrf24 klien bisa melalui channel: homebridge/from/set
+
+dengan format perintah: <wrf_id>,<nrf24_id>,<pin>,<value>
+
+misal: rf0,1,28,0 -> akan mengirimkan perintah untuk mengubah output pin dari mqtt klien = rf0, nrf24 mesh klien id = 1, pin = 28, dan output = 0
