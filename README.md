@@ -32,7 +32,9 @@ pinInput (bisa untuk switch) = {PB11, PB10, PB1, PA3, PA2, PA1, PA0, PC13}
 
 8 IRQ - Unconnected
 
-# koneksi modul nrf24 - rpi (ref: https://tmrh20.github.io/RF24/)
+# koneksi modul nrf24 - rpi 
+
+(ref: https://tmrh20.github.io/RF24/)
 
 No | Pin | RPI         | RPi -P1 Connector
 
