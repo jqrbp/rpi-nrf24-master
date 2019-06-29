@@ -10,6 +10,22 @@ src -> berisi kode dari program
 
 conf -> contoh konfigurasi file yang bisa digunakan untuk mosquitto dan program.
 
+# Librari:
+
+1. https://github.com/nRF24/RF24
+
+2. https://github.com/nRF24/RF24Network
+
+3. https://github.com/nRF24/RF24Mesh
+
+4. libmosquitto-dev
+
+5. libcrypto-dev
+
+6. libssl-dev
+
+7. libboost-system-dev
+
 # konfigurasi nrf24:
 
 nrf24client id: 1
