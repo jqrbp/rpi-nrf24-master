@@ -78,7 +78,7 @@ misal: s,1,28,0 -> mengatur output pin dari klien nrf24 dengan id = 1, pin = 28,
 
 # mqtt command:
 
-Untuk mengirimkan command dari mqtt ke nrf24 klien bisa melalui channel: homebridge/from/set
+Untuk mengirimkan command dari mqtt ke nrf24 klien bisa melalui topik: homebridge/from/set/<wrf_id>
 
 dengan format perintah: <wrf_id>,<nrf24_id>,<pin>,<value>
 
