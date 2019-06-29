@@ -19,7 +19,6 @@
 
 #define TLED  28
 
-static uint8_t pinInt = PB9;
 uint32_t ledTime = 0;
 uint8_t ledVal = 0;
 
@@ -41,7 +40,6 @@ payload_t payload;
 encpayload_t encpayload;
     
 void mesh_begin(void) {
-  pinMode(pinInt, INPUT_PULLDOWN);
   pinMode(PINLED, OUTPUT);
   nodeIDnum = EELoadID();
   mesh.setNodeID(nodeIDnum);
