@@ -7,7 +7,7 @@ static uint16_t EEVal = 0;
 
 uint8_t EELoadID(void) {
   EEVal = EEPROM.read(ADDRID);
-  if(EEVal == 0xFFFF) return 0;
+  if(EEVal == 0xFFFF) return 1;
   else return (uint8_t)EEVal;
 }
 

@@ -12,6 +12,8 @@ conf -> contoh konfigurasi file yang bisa digunakan untuk mosquitto dan program.
 
 # konfigurasi nrf24:
 
+nrf24client id: 1
+
 channel: 60
 
 datarate: RF24_1MBPS

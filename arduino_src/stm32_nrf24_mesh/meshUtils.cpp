@@ -26,7 +26,7 @@ RF24 radio(PINCE,PINCS);
 RF24Network network(radio);
 RF24Mesh mesh(radio,network);
 
-static uint8_t nodeIDnum  = 0;
+static uint8_t nodeIDnum  = 1;
 static uint8_t meshChannel = 60; //1-127, default 97
 static uint8_t togglingIdx = 0;
 static uint8_t togglingVal = 0;
